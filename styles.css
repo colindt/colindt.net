@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: sans-serif;
-    margin: 5em auto;
+    margin: 3em auto;
     max-width: 960px;
 }
 
@@ -21,8 +21,38 @@ a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin: 8px 0;
+}
+
 .whisper {
     font-size: 75%;
     color: #bbb;
     margin-top: 5em;
+}
+
+.amazon:after, .adafruit:after, .sparkfun:after {
+    display: inline-block;
+    content: "";
+    height: 16px;
+    width: 16px;
+    margin-left: 3px;
+}
+
+.amazon:after {
+    background-image: url(amazon.png);
+}
+
+.adafruit:after {
+    background-image: url(adafruit.png);
+}
+
+.sparkfun:after {
+    background-image: url(sparkfun.png);
 }

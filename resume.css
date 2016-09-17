@@ -1,0 +1,104 @@
+body {
+    background-color: #aaa;
+    font-family: Georgia, serif;
+    font-size: 12pt;
+}
+
+#page {
+    max-width: 8in;
+    min-height: 10.5in;
+    padding: 0.25in;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 4px 3px 2px #888;
+}
+
+#content {
+    max-width: 6.5in;
+    min-height: 9in;
+    margin: auto;
+    margin-bottom: 1in;
+    position: relative;
+    top: 0.5in;
+    border: 1px dotted #fafafa;
+    background-color: white;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+h1, h2, .title {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+ul {
+    margin: 0;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clear:before, .clear:after {
+    content: " ";
+    display: table;
+}
+.clear:after {
+    clear: both;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.indented-hanging-indent {
+    text-indent: -0.5in;
+    padding-left: 1in;
+}
+
+.hanging-indent {
+    text-indent: -0.5in;
+    padding-left: 0.5in;
+}
+
+@media screen and (min-width: 500px) {
+    wbr.long {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 340px) {
+    wbr:not(.long) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .indented-hanging-indent {
+        text-indent: -0.25in;
+        padding-left: 0.5in;
+    }
+
+    .hanging-indent {
+        text-indent: -0.25in;
+        padding-left: 0.25in;
+    }
+}

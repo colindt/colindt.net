@@ -29,7 +29,7 @@ td {
     border: 18px solid white;
     width: 100px;
     height: 100px;
-    background-color: black;
+    background-color: white;
 }
 
 
@@ -44,16 +44,16 @@ label {
 }
 
 
-.color1, .color2, .color3, .color4, .color5 {
-
+.colorW, .color1, .color2, .color3, .color4 {
+    transition: background-color 0.2s;
 }
 
 
 .colorW {background-color: white;}
 .color1 {background-color: #d6adbc;}
-.color2 {background-color: #94ac9d}
-.color3 {background-color: #a1c3e5}
-.color4 {background-color: #a3b0d4}
+.color2 {background-color: #94ac9d;}
+.color3 {background-color: #a1c3e5;}
+.color4 {background-color: #a3b0d4;}
 
 
 body.labels td[class^="color"]::before {

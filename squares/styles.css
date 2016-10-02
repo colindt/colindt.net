@@ -1,0 +1,70 @@
+body {
+    background-color: #aaa;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+
+#content {
+    display: table;
+    margin: auto;
+}
+
+
+table {
+    margin-top: 1em;
+    border-collapse: collapse;
+}
+
+
+tr, td {
+    margin: 0;
+    padding: 0;
+}
+
+
+td {
+    content: "\0a";
+    margin: 0;
+    padding: 0;
+    border: 18px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+
+tr:last-child td {
+   height: 76px;
+   border-bottom: none;
+}
+
+
+label {
+    margin-left: 2em;
+}
+
+
+.color1, .color2, .color3, .color4, .color5 {
+
+}
+
+
+.colorW {background-color: white;}
+.color1 {background-color: #d6adbc;}
+.color2 {background-color: #94ac9d}
+.color3 {background-color: #a1c3e5}
+.color4 {background-color: #a3b0d4}
+
+
+body.labels td[class^="color"]::before {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+}
+
+body.labels .colorW::before {content: "W";}
+body.labels .color1::before {content: "1";}
+body.labels .color2::before {content: "2";}
+body.labels .color3::before {content: "3";}
+body.labels .color4::before {content: "4";}

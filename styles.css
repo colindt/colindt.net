@@ -31,6 +31,14 @@ ul, ol {
     margin: 8px 0;
 }
 
+li {
+    list-style: none;
+}
+li:before {
+    padding-right: 0.5em;
+    content: "\2192";
+}
+
 .whisper {
     font-size: 75%;
     color: #bbb;

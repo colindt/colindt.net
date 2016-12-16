@@ -54,13 +54,13 @@ li:before {
 }
 
 .amazon:after {
-    background-image: url(amazon.png);
+    background-image: url(img/amazon.png);
 }
 
 .adafruit:after {
-    background-image: url(adafruit.png);
+    background-image: url(img/adafruit.png);
 }
 
 .sparkfun:after {
-    background-image: url(sparkfun.png);
+    background-image: url(img/sparkfun.png);
 }

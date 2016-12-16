@@ -3,18 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Wishlist | Colin Thompson</title>
-        <link rel="icon" href="favicon.png" type="image/png" />
+        <link rel="icon" href="favicon.png" type="image/png">
         <link rel="stylesheet" href="styles.css" type="text/css" />
+        <script src="lib/openpgp.js" async></script>
     </head>
     <body>
-        <h1>Wishlists</h1>
-
-        <p>Birthday/Christmas wishlists. Each list has different items.</p>
-
-        <ul>
-            <li><strong><a href="https://amzn.com/w/1MJOPV8Z27FPI" class="amazon">Amazon</a></strong></li>
-            <li><strong><a href="https://www.adafruit.com/wishlists/399462" class="adafruit">Adafruit</a></strong></li>
-            <li><strong><a href="https://www.sparkfun.com/wish_lists/126352" class="sparkfun">SparkFun</a></strong></li>
-        </ul>
+        <h1>Wishlist</h1>
+        <div id="pwentry"></div>
+        <div id="pwcontent"></div>
+        <script src="password.js" data-pwcontent="pwcontent/wishlist.htm.asc"></script>
     </body>
 </html>

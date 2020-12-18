@@ -1,0 +1,4 @@
+*
+!.gitignore
+!*.asc
+!encrypt.sh

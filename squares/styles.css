@@ -39,7 +39,7 @@ tr:last-child td {
 }
 
 
-label {
+label, form > a {
     margin-left: 2em;
 }
 

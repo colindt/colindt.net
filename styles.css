@@ -5,6 +5,7 @@ html {
 body {
     font-family: sans-serif;
     margin: 3em auto;
+    padding: 0 1em;
     max-width: 960px;
 }
 

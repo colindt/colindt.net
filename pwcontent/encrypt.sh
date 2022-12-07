@@ -1,2 +1,2 @@
 #!/bin/bash
-gpg --no-use-agent -c --cipher-algo AES256 -a --yes $1
+gpg -c --cipher-algo AES256 --armor --yes $1

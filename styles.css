@@ -25,7 +25,7 @@ a:hover {
 h2 {
     font-size: 22px;
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 p {
@@ -34,10 +34,16 @@ p {
 
 ul, ol {
     margin: 8px 0;
+    padding-left: 1em;
+}
+ul ul, ul ol, ol ul, ol ol {
+    margin: 0;
 }
 
 li {
     list-style: none;
+    text-indent: -1.5em;
+    padding-left: 1.5em;
 }
 li:before {
     padding-right: 0.5em;
@@ -68,4 +74,8 @@ li:before {
 
 .sparkfun:after {
     background-image: url(img/sparkfun.png);
+}
+
+.note {
+    font-size: 80%;
 }
